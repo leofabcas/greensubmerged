@@ -1,7 +1,9 @@
 import React from 'react'
-import './App.css';
+import '../App.css';
 import 'bootstrap/dist/css/bootstrap.css'
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap'
+import './CartWidget'
+import CartWidget from './CartWidget';
 
 export default function NavBar() {
   return (
@@ -21,6 +23,9 @@ export default function NavBar() {
                   <NavDropdown.Divider />
                   <NavDropdown.Item href="#action/3.4">Marinos</NavDropdown.Item>
                 </NavDropdown>
+              </Nav>
+              <Nav>
+                <CartWidget/>
               </Nav>
               <Nav>
                 <Nav.Link href="">Social Media</Nav.Link>

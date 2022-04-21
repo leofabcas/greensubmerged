@@ -28,6 +28,20 @@
   color: #61dafb;
 }
 
+.CartWidgetStyle {
+  padding-right: 2rem;
+  filter: invert(1);
+}
+
+.ItemListContainerStyle {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  border-radius: .25rem;
+  width: fit-content;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
