@@ -1,10 +1,10 @@
 import React from 'react'
 
-export default function ItemListContainer() {
+export default function ItemListContainer(props) {
     return (
         <div className='ItemListContainerStyle'>
             <div>
-                <h3>Acuarios de Biotopo</h3>
+                <h6>{props.title}</h6>
                 <ul>
                     <li>BADC 2022</li>
                     <li>BADC 2021</li>
@@ -15,7 +15,7 @@ export default function ItemListContainer() {
                 </ul>
             </div>
             <div>
-                <h3>Acuarios de Paisajismo</h3>
+                <h6>{props.title}</h6>
                 <ul>
                     <li>IAPLC 2022</li>
                     <li>IAPLC 2021</li>
