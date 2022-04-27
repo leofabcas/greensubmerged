@@ -5,6 +5,7 @@ export default function ItemListContainer(props) {
         <div className='ItemListContainerStyle'>
             <div>
                 <h6>{props.title}</h6>
+                <p>{props.greeting}</p>
                 <ul>
                     <li>BADC 2022</li>
                     <li>BADC 2021</li>

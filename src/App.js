@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <NavBar/>
-      <ItemListContainer title='Acuarios de Biotopo'/>
+      <ItemListContainer title='Acuarios de Biotopo' greeting='World Championship'/>
     </div>
   );
 }
